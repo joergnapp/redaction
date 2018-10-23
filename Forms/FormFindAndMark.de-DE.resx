@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,79 +117,89 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>340, 28</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Suc&amp;hen nach:</value>
   </data>
-  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 31</value>
+  <data name="buttonMark.Text" xml:space="preserve">
+    <value>Markieren</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>364, 71</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
   </data>
-  <data name="&gt;&gt;labelProgress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Suchoptionen</value>
   </data>
-  <data name="&gt;&gt;labelProgress.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="checkBoxIgnoreWhitespace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
   </data>
-  <data name="labelProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 13</value>
+  <data name="checkBoxIgnoreWhitespace.Text" xml:space="preserve">
+    <value>&amp;Leerzeichen ignorieren</value>
   </data>
-  <data name="labelProgress.Text" xml:space="preserve">
-    <value>Redacting your document...</value>
+  <data name="checkBoxIgnorePunct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 17</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
+  <data name="checkBoxIgnorePunct.Text" xml:space="preserve">
+    <value>&amp;Interpunktionszeichen ignorieren</value>
   </data>
-  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="checkBoxMatchSuffix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
   </data>
-  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBoxMatchSuffix.Text" xml:space="preserve">
+    <value>S&amp;uffix beachten</value>
   </data>
-  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="checkBoxMatchPrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormDoRedaction</value>
+  <data name="checkBoxMatchPrefix.Text" xml:space="preserve">
+    <value>Präfi&amp;x beachten</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="checkBoxWordForms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 17</value>
   </data>
-  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
-    <value>progressBar</value>
+  <data name="checkBoxWordForms.Text" xml:space="preserve">
+    <value>Suche alle &amp;Wortformen (nur englisch)</value>
   </data>
-  <data name="labelProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+  <data name="checkBoxSoundsLike.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 17</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelProgress.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="checkBoxSoundsLike.Text" xml:space="preserve">
+    <value>&amp;Klingt wie... (nur englisch)</value>
+  </data>
+  <data name="checkBoxWildcards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="checkBoxWildcards.Text" xml:space="preserve">
+    <value>&amp;Platzhalter verwenden</value>
+  </data>
+  <data name="checkBoxWholeWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 17</value>
+  </data>
+  <data name="checkBoxWholeWord.Text" xml:space="preserve">
+    <value>&amp;Nur ganzes Wort suchen</value>
+  </data>
+  <data name="checkBoxMatchCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="checkBoxMatchCase.Text" xml:space="preserve">
+    <value>Groß-/Kleinschreibung be&amp;achten</value>
+  </data>
+  <data name="buttonMoreLess.Text" xml:space="preserve">
+    <value>&amp;Erweitern &gt;&gt;</value>
+  </data>
+  <data name="labelOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="labelOptions.Text" xml:space="preserve">
+    <value>Suchoptionen:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Redacting...</value>
+    <value>Suchen und markieren</value>
   </data>
-  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelProgress.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelProgress.Name" xml:space="preserve">
-    <value>labelProgress</value>
-  </data>
-  <data name="&gt;&gt;labelProgress.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>de-DE</value>
-  </metadata>
 </root>

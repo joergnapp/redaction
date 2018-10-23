@@ -79,6 +79,7 @@
             // 
             // panelOptions
             // 
+            resources.ApplyResources(this.panelOptions, "panelOptions");
             this.panelOptions.Controls.Add(this.label2);
             this.panelOptions.Controls.Add(this.checkBoxIgnoreWhitespace);
             this.panelOptions.Controls.Add(this.checkBoxIgnorePunct);
@@ -89,7 +90,6 @@
             this.panelOptions.Controls.Add(this.checkBoxWildcards);
             this.panelOptions.Controls.Add(this.checkBoxWholeWord);
             this.panelOptions.Controls.Add(this.checkBoxMatchCase);
-            resources.ApplyResources(this.panelOptions, "panelOptions");
             this.panelOptions.Name = "panelOptions";
             // 
             // label2
@@ -179,8 +179,8 @@
             // 
             // labelOptionsDetails
             // 
-            this.labelOptionsDetails.AutoEllipsis = true;
             resources.ApplyResources(this.labelOptionsDetails, "labelOptionsDetails");
+            this.labelOptionsDetails.AutoEllipsis = true;
             this.labelOptionsDetails.Name = "labelOptionsDetails";
             // 
             // FormFindAndMark

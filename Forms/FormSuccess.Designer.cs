@@ -63,8 +63,8 @@
             // FormSuccess
             // 
             this.AcceptButton = this.buttonInspect;
-            this.AccessibleRole = System.Windows.Forms.AccessibleRole.Dialog;
             resources.ApplyResources(this, "$this");
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.Dialog;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.CancelButton = this.buttonClose;
