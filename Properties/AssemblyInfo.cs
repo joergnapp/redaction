@@ -7,12 +7,12 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Word 2007 Redaction Tool")]
+[assembly: AssemblyTitle("Word Redaction Tool")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Word 2007 Redaction Tool")]
-[assembly: AssemblyCopyright("Copyright Microsoft Corporation ©  2008")]
+[assembly: AssemblyProduct("Word Redaction Tool")]
+[assembly: AssemblyCopyright("Copyright Microsoft Corporation ©  2008, Independet Developer 2018 - Released under Microsoft Public License (Ms-PL)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,8 +34,8 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
 
 // [assembly: SecurityTransparent()]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
